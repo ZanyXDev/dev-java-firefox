@@ -1,6 +1,6 @@
 FROM zanyxdev/dev-java-tools:latest
 
-RUN apt-get update && apt-get install -y firefox
+RUN apt-get update && apt-get install -y sudo firefox
 
 # Replace 1000 with your user / group id
 RUN export uid=1000 gid=1000 && \
